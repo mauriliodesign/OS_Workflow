@@ -1,0 +1,43 @@
+/* ================================================================ */
+/*  $3.5 - Page Layout - Login                                      */
+/* ================================================================ */
+.login-screen {
+  height: 100%;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .layout-native & {
+    padding: var(--os-safe-area-top) var(--os-safe-area-right) var(--os-safe-area-bottom) var(--os-safe-area-left); 
+    background-color: var(--color-background-login);
+  }  
+  .android[data-status-bar-height] .layout-native & {
+    padding-top: var(--status-bar-height);
+  }
+}
+
+
+.login-form {
+  background-color: var(--color-neutral-0);
+  border-radius: var(--border-radius-soft);
+  box-shadow: var(--shadow-l);
+  padding: var(--space-xxl);
+  min-width: 435px;
+  z-index: 2;
+}
+
+.login-screen > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.phone .login-form {
+  margin: var(--space-none) var(--space-base);
+  min-width: auto;
+  padding: var(--space-l);
+  width: 100%;
+}

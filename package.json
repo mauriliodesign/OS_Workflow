@@ -1,0 +1,23 @@
+{
+  "name": "outsystems-ui-scss",
+  "version": "1.0.0",
+  "description": "Outsystems UI Reactive version converted to SCSS",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediaweb-pt/outsystems-ui-scss"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.1",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-cli": "^6.1.3"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2"
+  },
+  "license": "GNU General Public License v3.0"
+}
